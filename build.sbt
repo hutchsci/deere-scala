@@ -13,3 +13,4 @@ libraryDependencies ++= Seq(
   "org.scalatest" %% "scalatest" % "3.0.1" % Test,
   "com.novocode" % "junit-interface" % "0.11" % Test
 )
+mainClass in (Compile, run) := Some("FunctionalScala")
